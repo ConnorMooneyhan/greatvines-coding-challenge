@@ -1,4 +1,8 @@
-.header {
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.App .header {
   display: flex;
   justify-content: space-around;
   background: #333;
@@ -6,13 +10,35 @@
   border-bottom: 3px solid black;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.8);
 }
-.header form {
+.App .header form {
   display: flex;
   align-items: center;
 }
-.header form input {
+.App .header form input {
   margin-left: 1em;
   height: fit-content;
+}
+.App main {
+  align-self: center;
+}
+.App main h2 {
+  border-radius: 0.15em;
+  border: 2px solid black;
+  padding: 0.5em;
+}
+.App .new-contact-form input {
+  margin-right: 0.5em;
+}
+.App .contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+.App .contact-list li {
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: 1px solid black;
+  box-shadow: 2px 1px 1px black;
+  margin: 1em 0;
 }
 
 /*# sourceMappingURL=App.css.map */
