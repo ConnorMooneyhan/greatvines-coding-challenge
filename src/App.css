@@ -9,14 +9,19 @@
   color: whitesmoke;
   border-bottom: 3px solid black;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.8);
-}
-.App .header form {
-  display: flex;
   align-items: center;
 }
-.App .header form input {
-  margin-left: 1em;
+.App .header a {
+  color: inherit;
+  text-decoration: none;
+}
+.App .header button {
+  background: transparent;
   height: fit-content;
+  color: inherit;
+  font-family: inherit;
+  font-size: 20px;
+  text-decoration: none;
 }
 .App main {
   align-self: center;
